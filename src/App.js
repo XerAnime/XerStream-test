@@ -8,8 +8,8 @@ import Movies from './templates/movies';
 import WatchAnime from './templates/watch_anime';
 import MoviePlayer from './templates/watch_movie';
 import MangaReader from './templates/manga_reader';
-import sript_js from './kdrama/script.js';
-import script2_js from './kdrama/script2.js';	
+import index.html from './kdrama/index.html';
+import video.html from './kdrama/video.html';	
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
