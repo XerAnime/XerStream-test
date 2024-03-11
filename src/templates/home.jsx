@@ -14,7 +14,7 @@ function Home() {
 		</div>
 
 		<div className='redirectContainer'>
-        	<a href="https://dramalama-kdrama.vercel.app">Kdramas</a>
+        	<a href="kdama">Kdramas</a>
         	<a href="/anime">Anime</a>
         	<a href="/news">News</a>
         	<a href="/movies">Movies</a>
