@@ -22,15 +22,18 @@ function Home() {
 		</div>
 
 	</div>
-  );
-}
-<div class="information">
+	</div>
+    <div class="information">
       <h2><u>FOLLOW ME ON FACEBOOK</u></h2>
       <h3>       👇       </h3>
       <a href="https://www.facebook.com/profile.php?id=100069572806122" target="_blank">ANIMXER</a>
       
       <h3>       🇵🇭      </h3>
       <h3>       🔥      </h3>
-
-
+      
+      <h2><u>OTHER</u></h3>
+      <h3>        👇       </h3>
+      <div class="footerLinks">	
+  );
+}
 export default Home
