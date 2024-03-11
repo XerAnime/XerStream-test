@@ -23,7 +23,7 @@ function Home() {
 
 	</div>
 
-	<footer class="foot">
+     <div <footer class="foot">
         © 2023 XerStream 
         </footer>
 	      </div>
