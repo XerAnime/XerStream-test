@@ -23,13 +23,14 @@ function Home() {
 
 	</div>
 
-     <div 
-	<footer class="foot">
-        © 2023 XerStream 
-        </footer>
-	      </div>
-		
-	</div>
+      <div className='space-y-2 lg:min-w-[17rem] lg:max-w-[17rem]'>
+          <FacebookPage />
+          <Genres className='hidden md:block' />
+          <Recommendation />
+        </div>
+      </Container>
+      <Footer />
+    </>
 			
   );
 }
