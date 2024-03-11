@@ -14,7 +14,7 @@ function Home() {
 		</div>
 
 		<div className='redirectContainer'>
-        	<a href="https://xerstream-six.vercel.app"</a>
+        	<a href="https://xerstream-six.vercel.app">Kdrama</a>
         	<a href="/anime">Anime</a>
         	<a href="/news">News</a>
         	<a href="/movies">Movies</a>
