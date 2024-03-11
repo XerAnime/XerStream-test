@@ -21,10 +21,7 @@ function Home() {
         	<a href="/mangas" >Mangas</a>
 		</div>
 
-	</div>
-	<footer class="foot">
-        © 2023 XerStream 
-    </footer>	
+	</div>	
   );
 }
 export default Home
