@@ -8,8 +8,8 @@ import Movies from './templates/movies';
 import WatchAnime from './templates/watch_anime';
 import MoviePlayer from './templates/watch_movie';
 import MangaReader from './templates/manga_reader';
-import index.html from './kdrama/index.html';
-import video.html from './kdrama/video.html';	
+import index_html from './kdrama/index.html';
+import video_html from './kdrama/video.html';	
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -26,8 +26,8 @@ function App() {
 				<Route path="/watch/:id" element={<WatchAnime />} />
 				<Route path='/watch_movies/:id' element={<MoviePlayer />}/>
 				<Route path='/manga_reader/:id' element={<MangaReader />}/>
-	                        <Route path='/script_js/:id' element={<index.html />}/>
-	                        <Route path='/script2_js/:id' element={video.html />}/>
+	                        <Route path='/index_html/:id' element={<index.html />}/>
+	                        <Route path='/video_html/:id' element={video.html />}/>
 			</Routes>
 		</Router>
 	);
