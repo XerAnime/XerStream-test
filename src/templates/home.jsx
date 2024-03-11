@@ -22,16 +22,6 @@ function Home() {
 		</div>
 
 	</div>
-
-      <h1 className='py-6 text-3xl font-medium'>About AnimXer.</h1>
-        <p className='leading-8'>
-          AnimXer is a website where you can watch or stream anime that you
-          like with English subtitles, dubbing, Chinese, movies, for free.
-          Formed in April 2023
-        </p>
-      </div>
-      <Footer />
-    </>
 			
   );
 }
