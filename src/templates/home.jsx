@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/home.css';
-import Footer".Footer";
+import "./Footer";
 function Home() {
 	return (
 	<div className="main">
