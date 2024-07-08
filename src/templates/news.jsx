@@ -41,7 +41,7 @@ function News() {
 					   <Link to={`/news/${encodeURIComponent(item.id)}`} key={index} className='newsBox-n' target='_new'>
 							<p className='newsBox-t'>{item.title}</p>
 							<p className='newsBox-d'>{item.uploadedAt}</p>
-							<img src={`https://image-proxy-tau.vercel.app/image-proxy?url=${item.thumbnail}`} alt="Thumbnail" />
+							<img src={`https://sup-proxy.zephex0-f6c.workers.dev/image-proxy?url=${item.thumbnail}`} alt="Thumbnail" />
 						</Link>
 					))}
 				</div>
