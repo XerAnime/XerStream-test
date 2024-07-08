@@ -11,7 +11,7 @@ function News() {
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
-				const response = await axios.get('https://dramalama-api.vercel.app/news/ann/recent-feeds');
+				const response = await axios.get('https://news-api-nine-lake.vercel.app/news/ann/recent-feeds');
 				setData(response.data);
 			} catch (error) {
 				setError(error);
