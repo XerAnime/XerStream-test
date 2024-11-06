@@ -32,7 +32,7 @@ function MoviePlayer() {
 			</div>
 
 			<div className="moviePlayer">
-				<iframe title="movie-player" src={`https://vidsrc.pro/embed/movie/${id}`} referrerPolicy="origin" allowFullScreen>
+				<iframe title="movie-player" src={`play2.123embed.net/movie/${id}`} referrerPolicy="origin" allowFullScreen>
 				</iframe>
 			</div>
 
