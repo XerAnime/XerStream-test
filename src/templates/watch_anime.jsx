@@ -20,7 +20,7 @@ function WatchAnime() {
 	}, [link]);
 
 	function fetchInfo() {
-		fetch(`https://anime-sensei-api.vercel.app/anime/gogoanime/info/${id}`)
+		fetch(`https://msks.vercel.app/anime/gogoanime/info/${id}`)
 		.then(response => response.json())
 		.then(data => {
 			fetchedInfo(data);
@@ -29,7 +29,7 @@ function WatchAnime() {
 	}
 
 	function fetchVideoLink(input) {
-		fetch(`https://anime-sensei-api.vercel.app/anime/gogoanime/watch/${input}`)
+		fetch(`https://msks.vercel.app/anime/gogoanime/watch/${input}`)
 		.then(response => response.json())
 		.then(data => {
 			fetchedLink(data.sources[3].url);
