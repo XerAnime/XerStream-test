@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../css/manga.css'
 
-const anilist_url = "https://dramalama-api.vercel.app/meta/anilist-manga/"
+const anilist_url = "https://msks.vercel.app/meta/anilist-manga/"
 
 function Manga() {
 
