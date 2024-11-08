@@ -79,7 +79,7 @@ function Anime() {
 							{air && air.results.map((item, index) => (
 								<Link key={index} to={`/watch/${encodeURI(item.id)}`} className="redirectsAnime" target='_new'>
 									<div className='airEntries'>
-										<img src={`https://proxy.anixer42.workers.dev/image-proxy?url=${item.image}`} className='airImages' alt={item.title}></img>
+										<img src={`https://sup-proxy.zephex0-f6c.workers.dev/image-proxy?url=${item.image}`} className='airImages' alt={item.title}></img>
 										<div className='imgOverlayTitle'>{item.title}</div>
 									</div>
 								</Link>
@@ -97,7 +97,7 @@ function Anime() {
 							{recentEpisodes && recentEpisodes.results.map((item, index) => (
 								<Link key={index} to={`/watch/${encodeURI(item.id)}`} className="redirectsAnime" target='_new'>
 									<div className='airEntries'>
-										<img src={`https://proxy.anixer42.workers.dev/image-proxy?url=${item.image}`} className='airImages' alt={item.title}></img>
+										<img src={`https://sup-proxy.zephex0-f6c.workers.dev/image-proxy?url=${item.image}`} className='airImages' alt={item.title}></img>
 										<div className='imgOverlayTitle'>{item.title}</div>
 										<div className='imgEpisodeNumber'>Episode: {item.episodeNumber}</div>
 									</div>
