@@ -22,7 +22,7 @@ function Anime() {
 	}
 
 	function fetchData(input) {
-		fetch(`https://anime-sensei-api.vercel.app/anime/gogoanime/${input}?page=1`)
+		fetch(`https://msks.vercel.app/anime/gogoanime/${input}?page=1`)
 			.then(response => response.json())
 			.then(data => {
 				setFetchedData(data);
@@ -34,7 +34,7 @@ function Anime() {
 
 	function fetchAir() {
 		setLoadingAir(true); 
-		fetch(`https://anime-sensei-api.vercel.app/anime/gogoanime/top-airing`)
+		fetch(`https://msks.vercel.app/anime/gogoanime/top-airing`)
 			.then(response => response.json())
 			.then(data => {
 				setAir(data);
@@ -45,7 +45,7 @@ function Anime() {
 
 	function newEpisodes() {
 		setLoadingEpisodes(true); 
-		fetch(`https://anime-sensei-api.vercel.app/anime/gogoanime/recent-episodes`)
+		fetch(`https://msks.vercel.app/anime/gogoanime/recent-episodes`)
 			.then(response => response.json())
 			.then(data => {
 				setRecentEpisodes(data); 
