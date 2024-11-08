@@ -13,7 +13,7 @@ function NewsItem() {
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
-				const response = await axios.get(`https://news-api-nine-lake.vercel.app/news/ann/info?id=${id}`);
+				const response = await axios.get(`https://msks.vercel.app/news/ann/info?id=${id}`);
 				setData(response.data);
 			} catch (error) {
 				setError(error);
