@@ -6,7 +6,7 @@ import "../css/manga_reader.css"
 function MangaReader() {
 
 	const { id } = useParams();
-	const anilist_info = `https://dramalama-api.vercel.app/meta/anilist-manga/info/${id}?provider=mangareader`
+	const anilist_info = `https://msks.vercel.app/meta/anilist-manga/info/${id}?provider=mangareader`
 
 	useEffect(() => {
         get_manga_info();
